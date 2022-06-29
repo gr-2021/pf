@@ -192,6 +192,18 @@
     border-radius: 100px;
 }
 
+.htext {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.39);
+    font-size: 30px;
+    padding: 10px;
+}
+
+.htext p {
+    align-items: center;
+    background-color: #000000;
+}
+
 .htxt h3{
     color: #fff;
 }
@@ -217,6 +229,31 @@
     background-color: white;
     width: 40px;
     height: 100px;
+}
+
+
+
+#last_project {
+    display: flex;
+}
+
+.last_project {
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.226);
+    text-align: center;
+    margin: 10px;
+}
+
+.last_project a {
+    color: #3d80fc;
+    font-size: 16px;
+}
+
+.last_project a:hover {
+    color: #0d60fc;
+    transition: .3s linear;
 }
 
 .bar {
@@ -459,6 +496,12 @@ footer a:hover {
     footer * {
         position: relative;
         left: -30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #last_project {
+        display: none;
     }
 }
 
